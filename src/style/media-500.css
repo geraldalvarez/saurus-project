@@ -1,0 +1,50 @@
+/* Mobile Resolution Screen */
+@media (max-width: 500px) {
+  /* Navbar Media Querries */
+  .navbar .logo {
+    width: 100%;
+  }
+  .navbar .logo .desktop-logo {
+    display: none;
+  }
+  .navbar .logo .mobile-logo {
+    display: block;
+  }
+  .navbar nav {
+    display: none;
+  }
+
+  /* Home Media Queries */
+  .home .section-1 .row-1 .content {
+    width: 80%;
+    text-align: center;
+  }
+  .home .section-1 .row-1 .content .hidden {
+    display: block;
+  }
+  .home .section-1 .row-1 .img-moon {
+    display: none;
+  }
+  .home .section-1 .wrapper {
+    width: 100%;
+  }
+  .home .section-1 .row-2 .img-tent {
+    display: none;
+  }
+  .home .section-2 .row-1 .content {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+  }
+  .home .section-2 .row-1 .img-fossil {
+    display: none;
+  }
+  .home .section-3 .row-1 .content {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+  }
+  .home .section-3 .row-1 .img-amber {
+    display: none;
+  }
+}
